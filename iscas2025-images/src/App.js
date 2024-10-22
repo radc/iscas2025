@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <h2>Quantization-Aware SSF Hyper Prior Decoding for Cross-Platform Neural Video Applications</h2>
+          <h2>Quantized SSF Hyper Prior Decoding for Cross-Platform Neural Video Applications</h2>
           <nav>
             {/* Navigation Links */}
             <Link to="/">Home</Link>

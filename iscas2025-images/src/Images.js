@@ -84,8 +84,8 @@ function Images() {
   return (
     <div className="Images">
       <header className="Images-header">
-        <h2>Images Page</h2>
-        <p>Welcome to the Images page!</p>
+        <h2>Reconstructed Images Page</h2>
+        {/* <p>Welcome to the Images page!</p> */}
 
         <div className="selectors">
           {/* Platform Selector */}
@@ -171,7 +171,7 @@ function Images() {
 
         {/* Displaying the 'path' string */}
         <div className="path-display">
-          <p><strong>Path:</strong> {path}</p>
+          {/* <p><strong>Path:</strong> {path}</p> */}
         </div>
 
         {/* Display the selected image */}
