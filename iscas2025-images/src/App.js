@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <h2>Quantized SSF Hyper Prior Decoding for Cross-Platform Neural Video Applications</h2>
+          <h2>Cross-Platform Neural Video Coding: A Case Study</h2>
           <nav>
             {/* Navigation Links */}
             <Link to="/">Home</Link>
@@ -32,23 +32,7 @@ function Home() {
   return (
     <div className="Home">      
       <p>
-        In this paper, we first demonstrated that current
-        learning-based video codecs, specifically the SSF codec, are not
-        suitable for real-world applications due to the mismatch between
-        the encoder and decoder caused by floating-point round-off
-        errors. To address this issue, we proposed a static quantization of
-        the hyper prior decoding path. The quantization parameters were
-        determined through an exhaustive search of all possible combinations
-        of observers and quantization schemes. When encoding
-        and decoding were performed on the same machine, the proposed
-        solution resulted in an average BD-rate increase of 9.93% for
-        the SSF codec, while effectively mitigating the mismatch issue.
-        When encoding and decoding on different machines, the proposed
-        solution can enhance compression efficiency results by preventing
-        severe image quality degradation. Finally, we discussed how
-        replacing floating-point operations with integer ones could offer
-        the additional benefit of reduced power dissipation in future
-        hardware designs.
+      In this paper, we first show that current learning-based video codecs, specifically the SSF codec, are not suitable for real-world applications due to the mismatch between the encoder and decoder caused by floating-point round-off errors. To address this issue, we propose the static quantization of the hyper prior decoding path. The quantization parameters are determined through an exhaustive search of all possible combinations of observers and quantization schemes from PyTorch. For the SSF codec, when encoding and decoding on different machines, the proposed solution effectively mitigates the mismatch issue and enhances compression efficiency results by preventing severe image quality degradation. When encoding and decoding are performed on the same machine, it constrains the average BD-rate increase to 9.93% and 9.02% for UVG and HEVC-B sequences, respectively.
       </p>
     </div>
   );
